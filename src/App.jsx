@@ -1,3 +1,5 @@
+import MyLogo from "./assets/MyLogo.jpg";
+import LinkedIn from "./assets/LinkedIn.jpg"
 import './App.css'
 import Home from './components/Home'
 import About from './components/About'
@@ -8,8 +10,9 @@ function App() {
 
   return (
     <div className="App">
+       
       <header>
-        <p>MyLogo</p>
+      <img src={MyLogo}  alt=""/>
         <div className='navLinks'>
         <a href="#for-home">Home</a>
         <a href="#for-about">About</a>
@@ -25,6 +28,7 @@ function App() {
       </main>
       <footer>
         <div className="social">
+        <a href="https://www.linkedin.com/in/aisha-asila-ahmed-02aa66217" target = "_blank"></a>
         
         </div>
         <p>&copy; Aisha Asila Ahmed</p>
