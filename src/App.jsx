@@ -12,12 +12,13 @@ function App() {
     <div className="App">
        
       <header>
-      <img src={MyLogo}  alt=""/>
+      
         <div className='navLinks'>
         <a href="#for-home">Home</a>
         <a href="#for-about">About</a>
-        <a href="#for-contact">Contact</a>
         <a href="#for-projects">Project</a>
+        <a href="#for-contact">Contact</a>
+        
         </div>
       </header>
       <main>
