@@ -1,4 +1,4 @@
-import MyLogo from "./assets/MyLogo.jpg";
+import MyLogo from "./assets/MyLogo.jpeg";
 import LinkedIn from "./assets/LinkedIn.jpg"
 import './App.css'
 import Home from './components/Home'
