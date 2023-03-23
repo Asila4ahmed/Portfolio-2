@@ -8,31 +8,31 @@ function Project() {
       <div className="project" id="for-projects">
         <h2>Projects</h2>
         <span></span>
-        <p>All my projects include links to the source code on Github. Click on the 'GitHub Link' attached to know about each project.</p>
+        <p>All my projects include links to the source code on GitHub. Click on the name of each project attached to access the code for the project on GitHub.</p>
         <div className="card-container">
           <div className="card">
             <div className="card-img">
             <img src={bannerTwo}  alt=""/>
             </div>
-            <a href="https://github.com/Asila4ahmed/Portfolio/blob/main/ERC20-2.sol">Github Link</a>
+            <a href="https://github.com/Asila4ahmed/Portfolio/blob/main/ERC20-2.sol">ERC-20 Token</a>
           </div>
           <div className="card">
             <div className="card-img"> 
             <img src={bannerThree} alt="" />
             </div>
-            <a href="https://github.com/Asila4ahmed/Portfolio/blob/main/CrowdFunding.sol">Github Link</a>
+            <a href="https://github.com/Asila4ahmed/Portfolio/blob/main/CrowdFunding.sol">Crowd Funding</a>
           </div>
           <div className="card">
             <div className="card-img">
             <img src={bannerOne} alt="" />
             </div>
-            <a href="https://github.com/Asila4ahmed/Portfolio/blob/main/NFT.sol">Github Link</a>
+            <a href="https://github.com/Asila4ahmed/Portfolio/blob/main/NFT.sol">NFT</a>
           </div>
           <div className="card">
             <div className="card-img">
             <img src={bannerFour} alt="" />
             </div>
-            <a href="https://github.com/Asila4ahmed/Portfolio/blob/main/PiggyBank.sol">Github Link</a>
+            <a href="https://github.com/Asila4ahmed/Portfolio/blob/main/PiggyBank.sol">Piggy Bank</a>
           </div>
 
         </div>
